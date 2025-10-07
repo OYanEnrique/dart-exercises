@@ -23,6 +23,14 @@ meu_app/
 │   ├── ex001.dart      # Exercício 1: Hello World
 │   ├── ex002.dart      # Exercício 2: Entrada de dados e apresentação
 │   ├── ex003.dart      # Exercício 3: Múltiplas entradas
+│   ├── ex004.dart      # Exercício 4: Calculadora com funções
+│   ├── ex005.dart      # Exercício 5: Cálculo do dobro
+│   ├── ex006.dart      # Exercício 6: Cálculo de média
+│   ├── ex007.dart      # Exercício 7: Ficha do participante
+│   ├── ex008.dart      # Exercício 8: Calculadora de salário
+│   ├── ex009.dart      # Exercício 9: Sistema bancário com Pix
+│   ├── ex010.dart      # Exercício 10: Sistema de pontos
+│   ├── ex011.dart      # Exercício 11: Sistema de cupons
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   └── meu_app.dart
@@ -65,6 +73,30 @@ dart run bin/ex002.dart
 # Exercício 3 - Múltiplas entradas
 dart run bin/ex003.dart
 
+# Exercício 4 - Calculadora com funções
+dart run bin/ex004.dart
+
+# Exercício 5 - Cálculo do dobro
+dart run bin/ex005.dart
+
+# Exercício 6 - Cálculo de média
+dart run bin/ex006.dart
+
+# Exercício 7 - Ficha do participante
+dart run bin/ex007.dart
+
+# Exercício 8 - Calculadora de salário
+dart run bin/ex008.dart
+
+# Exercício 9 - Sistema bancário com Pix
+dart run bin/ex009.dart
+
+# Exercício 10 - Sistema de pontos
+dart run bin/ex010.dart
+
+# Exercício 11 - Sistema de cupons
+dart run bin/ex011.dart
+
 # Aplicação principal
 dart run
 # ou
@@ -84,6 +116,38 @@ Programa interativo que solicita o nome do usuário e o cumprimenta.
 ### Exercício 3 (ex003.dart)
 Programa que coleta nome e idade do usuário e exibe as informações.
 - **Conceitos:** Múltiplas entradas, variáveis, formatação de saída
+
+### Exercício 4 (ex004.dart)
+Calculadora com quatro operações básicas usando funções.
+- **Conceitos:** Funções, operadores aritméticos, conversão de tipos com double.parse
+
+### Exercício 5 (ex005.dart)
+Calcula o dobro de um número informado pelo usuário.
+- **Conceitos:** Parse de strings, operações matemáticas, interpolação
+
+### Exercício 6 (ex006.dart)
+Calcula a média aritmética de três números.
+- **Conceitos:** Múltiplas entradas, operações matemáticas, conversão int.parse
+
+### Exercício 7 (ex007.dart)
+Ficha cadastral com nome, idade, altura e participação em comunidade.
+- **Conceitos:** Tipos booleanos, operador ternário, conversão de strings
+
+### Exercício 8 (ex008.dart)
+Calculadora de salário líquido com base em horas trabalhadas e descontos.
+- **Conceitos:** Cálculos percentuais, variáveis double, operações complexas
+
+### Exercício 9 (ex009.dart)
+Simulador de banco digital com saldo e operação de Pix.
+- **Conceitos:** Variáveis globais, operações com saldo, formatação de valores monetários
+
+### Exercício 10 (ex010.dart)
+Sistema de resgate de pontos de fidelidade.
+- **Conceitos:** Funções void, escopo de variáveis, operações de subtração
+
+### Exercício 11 (ex011.dart)
+Sistema de cupons baseado no valor da compra (1 cupom a cada R$50).
+- **Conceitos:** Divisão, operações matemáticas, regras de negócio
 
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
@@ -115,6 +179,12 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Sintaxe básica da linguagem
 - ✅ Entrada e saída de dados
 - ✅ Tipos de variáveis e inferência
+- ✅ Funções e escopo de variáveis
+- ✅ Conversão de tipos (parse)
+- ✅ Operadores aritméticos e lógicos
+- ✅ Operador ternário
+- ✅ Tipos booleanos
+- ✅ Formatação de valores (toStringAsFixed)
 - ✅ Boas práticas de código
 
 ## 📖 Recursos
