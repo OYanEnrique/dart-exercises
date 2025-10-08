@@ -31,6 +31,10 @@ meu_app/
 │   ├── ex009.dart      # Exercício 9: Sistema bancário com Pix
 │   ├── ex010.dart      # Exercício 10: Sistema de pontos
 │   ├── ex011.dart      # Exercício 11: Sistema de cupons
+│   ├── ex012.dart      # Exercício 12: Verificação de idade para dirigir
+│   ├── ex013.dart      # Exercício 13: Meses do ano com switch
+│   ├── ex014.dart      # Exercício 14: Pix com validação de saldo
+│   ├── ex015.dart      # Exercício 15: Idade para dirigir por país
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   └── meu_app.dart
@@ -97,6 +101,18 @@ dart run bin/ex010.dart
 # Exercício 11 - Sistema de cupons
 dart run bin/ex011.dart
 
+# Exercício 12 - Verificação de idade para dirigir
+dart run bin/ex012.dart
+
+# Exercício 13 - Meses do ano com switch
+dart run bin/ex013.dart
+
+# Exercício 14 - Pix com validação de saldo
+dart run bin/ex014.dart
+
+# Exercício 15 - Idade para dirigir por país
+dart run bin/ex015.dart
+
 # Aplicação principal
 dart run
 # ou
@@ -149,6 +165,22 @@ Sistema de resgate de pontos de fidelidade.
 Sistema de cupons baseado no valor da compra (1 cupom a cada R$50).
 - **Conceitos:** Divisão, operações matemáticas, regras de negócio
 
+### Exercício 12 (ex012.dart)
+Verifica se a pessoa pode dirigir com base na idade (maior ou igual a 18 anos).
+- **Conceitos:** Estruturas condicionais if/else, comparações, entrada de dados
+
+### Exercício 13 (ex013.dart)
+Converte o número do mês (1-12) para o nome do mês correspondente.
+- **Conceitos:** Switch/case, estruturas de controle, validação de entrada
+
+### Exercício 14 (ex014.dart)
+Sistema bancário com Pix que valida se há saldo suficiente antes de realizar a transação.
+- **Conceitos:** Condicionais, validação de saldo, funções com parâmetros, variáveis globais
+
+### Exercício 15 (ex015.dart)
+Verifica se pode dirigir com base na idade e país de origem (BR: 18+, US: 16+, JP: 20+).
+- **Conceitos:** Operadores lógicos (&&, ||), múltiplas condições, toLowerCase
+
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
 - **Conceitos:** Interação com usuário, readLineSync
@@ -185,6 +217,10 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Operador ternário
 - ✅ Tipos booleanos
 - ✅ Formatação de valores (toStringAsFixed)
+- ✅ Estruturas condicionais (if/else)
+- ✅ Switch/case para múltiplas opções
+- ✅ Operadores lógicos (&&, ||)
+- ✅ Validação de dados
 - ✅ Boas práticas de código
 
 ## 📖 Recursos

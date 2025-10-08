@@ -1,3 +1,14 @@
+## 1.3.0 - 2025-10-08
+
+### Added
+- Exercício 15: Idade para dirigir por país (BR, US, JP)
+- Exercício 14: Sistema bancário Pix com validação de saldo
+- Exercício 13: Conversão de número para nome do mês (switch/case)
+- Exercício 12: Verificação de idade para dirigir
+
+### Changed
+- Melhorias no exercício 4 com validação de null e tratamento de erros
+
 ## 1.2.0 - 2025-10-07
 
 ### Added
