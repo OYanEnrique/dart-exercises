@@ -1,3 +1,15 @@
+## 1.4.0 - 2025-10-09
+
+### Added
+- Exercício 20: Validação de formas de pagamento (cartão, boleto, paypal, pix)
+- Exercício 19: Sistema bancário completo com múltiplas operações
+- Exercício 18: Conversão de número para mês com recursão
+- Exercício 17: Validação de extensões de arquivo com recursão
+- Exercício 16: Validação de categorias de produtos com recursão
+
+### Changed
+- Aprimorada documentação com conceitos de recursão e Lists
+
 ## 1.3.0 - 2025-10-08
 
 ### Added

@@ -35,6 +35,11 @@ meu_app/
 │   ├── ex013.dart      # Exercício 13: Meses do ano com switch
 │   ├── ex014.dart      # Exercício 14: Pix com validação de saldo
 │   ├── ex015.dart      # Exercício 15: Idade para dirigir por país
+│   ├── ex016.dart      # Exercício 16: Validação de categorias
+│   ├── ex017.dart      # Exercício 17: Validação de extensões
+│   ├── ex018.dart      # Exercício 18: Meses com recursão
+│   ├── ex019.dart      # Exercício 19: Sistema bancário completo
+│   ├── ex020.dart      # Exercício 20: Formas de pagamento
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   └── meu_app.dart
@@ -113,6 +118,21 @@ dart run bin/ex014.dart
 # Exercício 15 - Idade para dirigir por país
 dart run bin/ex015.dart
 
+# Exercício 16 - Validação de categorias
+dart run bin/ex016.dart
+
+# Exercício 17 - Validação de extensões de arquivo
+dart run bin/ex017.dart
+
+# Exercício 18 - Meses com recursão
+dart run bin/ex018.dart
+
+# Exercício 19 - Sistema bancário completo
+dart run bin/ex019.dart
+
+# Exercício 20 - Formas de pagamento
+dart run bin/ex020.dart
+
 # Aplicação principal
 dart run
 # ou
@@ -181,6 +201,26 @@ Sistema bancário com Pix que valida se há saldo suficiente antes de realizar a
 Verifica se pode dirigir com base na idade e país de origem (BR: 18+, US: 16+, JP: 20+).
 - **Conceitos:** Operadores lógicos (&&, ||), múltiplas condições, toLowerCase
 
+### Exercício 16 (ex016.dart)
+Validação de categorias de produtos com recursão para entrada inválida.
+- **Conceitos:** List, contains, recursão, validação de entrada, toLowerCase
+
+### Exercício 17 (ex017.dart)
+Validação de extensões de arquivo permitidas com recursão.
+- **Conceitos:** List, validação, recursão, tratamento de entrada inválida
+
+### Exercício 18 (ex018.dart)
+Conversão de número para mês com recursão quando entrada for inválida.
+- **Conceitos:** Switch/case, recursão, validação de intervalo, função que retorna valor
+
+### Exercício 19 (ex019.dart)
+Sistema bancário completo com depósito, retirada, transferência e pagamento.
+- **Conceitos:** Múltiplas operações, validação de saldo, recursão, formatação de valores
+
+### Exercício 20 (ex020.dart)
+Validação de formas de pagamento aceitas (cartão, boleto, paypal, pix).
+- **Conceitos:** List, validação, recursão, operações de pagamento
+
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
 - **Conceitos:** Interação com usuário, readLineSync
@@ -221,6 +261,9 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Switch/case para múltiplas opções
 - ✅ Operadores lógicos (&&, ||)
 - ✅ Validação de dados
+- ✅ Recursão para validação de entrada
+- ✅ Trabalho com Lists e contains
+- ✅ Funções recursivas
 - ✅ Boas práticas de código
 
 ## 📖 Recursos
