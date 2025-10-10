@@ -40,6 +40,11 @@ meu_app/
 │   ├── ex018.dart      # Exercício 18: Meses com recursão
 │   ├── ex019.dart      # Exercício 19: Sistema bancário completo
 │   ├── ex020.dart      # Exercício 20: Formas de pagamento
+│   ├── ex021.dart      # Exercício 21: Sistema de notas com menu
+│   ├── ex022.dart      # Exercício 22: Loop for básico
+│   ├── ex023.dart      # Exercício 23: For-in com lista
+│   ├── ex024.dart      # Exercício 24: Loop com break
+│   ├── ex025.dart      # Exercício 25: Sistema de alunos e médias
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   └── meu_app.dart
@@ -133,6 +138,21 @@ dart run bin/ex019.dart
 # Exercício 20 - Formas de pagamento
 dart run bin/ex020.dart
 
+# Exercício 21 - Sistema de notas com menu
+dart run bin/ex021.dart
+
+# Exercício 22 - Loop for básico
+dart run bin/ex022.dart
+
+# Exercício 23 - For-in com lista
+dart run bin/ex023.dart
+
+# Exercício 24 - Loop com break
+dart run bin/ex024.dart
+
+# Exercício 25 - Sistema de alunos e médias
+dart run bin/ex025.dart
+
 # Aplicação principal
 dart run
 # ou
@@ -221,6 +241,26 @@ Sistema bancário completo com depósito, retirada, transferência e pagamento.
 Validação de formas de pagamento aceitas (cartão, boleto, paypal, pix).
 - **Conceitos:** List, validação, recursão, operações de pagamento
 
+### Exercício 21 (ex021.dart)
+Sistema de notas com menu interativo para adicionar, listar e sair.
+- **Conceitos:** Menu de opções, manipulação de Lists, funções com retorno, recursão
+
+### Exercício 22 (ex022.dart)
+Loop for básico que imprime números de 1 a 5.
+- **Conceitos:** Estrutura for, variável de controle, incremento
+
+### Exercício 23 (ex023.dart)
+Loop for-in para iterar sobre lista de nomes.
+- **Conceitos:** For-in, iteração em Lists, acesso direto aos elementos
+
+### Exercício 24 (ex024.dart)
+Loop que percorre string e para ao encontrar caractere específico.
+- **Conceitos:** For com índice, acesso a caracteres de string, break, length
+
+### Exercício 25 (ex025.dart)
+Sistema completo de registro de alunos com cálculo de médias.
+- **Conceitos:** Lista de listas, while, switch, funções, média aritmética, sistema CRUD
+
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
 - **Conceitos:** Interação com usuário, readLineSync
@@ -264,6 +304,11 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Recursão para validação de entrada
 - ✅ Trabalho com Lists e contains
 - ✅ Funções recursivas
+- ✅ Estruturas de repetição (for, for-in, while)
+- ✅ Controle de fluxo (break, continue)
+- ✅ Manipulação de strings (length, acesso por índice)
+- ✅ Lista de listas (estruturas bidimensionais)
+- ✅ Sistemas CRUD básicos
 - ✅ Boas práticas de código
 
 ## 📖 Recursos

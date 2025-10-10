@@ -1,3 +1,16 @@
+## 1.5.0 - 2025-10-10
+
+### Added
+- Exercício 25: Sistema completo de registro de alunos com cálculo de médias
+- Exercício 24: Loop com break e acesso a caracteres de string
+- Exercício 23: For-in para iteração em lista de nomes
+- Exercício 22: Loop for básico (1 a 5)
+- Exercício 21: Sistema de notas com menu interativo
+
+### Changed
+- Documentação expandida com estruturas de repetição (for, for-in, while)
+- Adicionados conceitos de controle de fluxo e manipulação de strings
+
 ## 1.4.0 - 2025-10-09
 
 ### Added
