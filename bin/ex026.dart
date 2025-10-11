@@ -1,4 +1,3 @@
-import 'dart:io';
 
 void main(){
   Conta contaYan = Conta("Yan", 1000.0);
