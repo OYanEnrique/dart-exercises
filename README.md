@@ -45,6 +45,9 @@ meu_app/
 │   ├── ex023.dart      # Exercício 23: For-in com lista
 │   ├── ex024.dart      # Exercício 24: Loop com break
 │   ├── ex025.dart      # Exercício 25: Sistema de alunos e médias
+│   ├── ex026.dart      # Exercício 26: Classes - Sistema bancário
+│   ├── ex027.dart      # Exercício 27: Classes - Receitas
+│   ├── ex028.dart      # Exercício 28: Classes - Controle de estoque
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   └── meu_app.dart
@@ -152,6 +155,15 @@ dart run bin/ex024.dart
 
 # Exercício 25 - Sistema de alunos e médias
 dart run bin/ex025.dart
+
+# Exercício 26 - Classes - Sistema bancário
+dart run bin/ex026.dart
+
+# Exercício 27 - Classes - Receitas
+dart run bin/ex027.dart
+
+# Exercício 28 - Classes - Controle de estoque
+dart run bin/ex028.dart
 
 # Aplicação principal
 dart run
@@ -261,6 +273,18 @@ Loop que percorre string e para ao encontrar caractere específico.
 Sistema completo de registro de alunos com cálculo de médias.
 - **Conceitos:** Lista de listas, while, switch, funções, média aritmética, sistema CRUD
 
+### Exercício 26 (ex026.dart)
+Sistema bancário usando classes com titular e saldo, métodos receber e enviar.
+- **Conceitos:** Classes, construtores, atributos, métodos, objetos, instanciação
+
+### Exercício 27 (ex027.dart)
+Sistema de receitas usando classe com nome e preço.
+- **Conceitos:** Classes simples, construtor posicional, lista de objetos, iteração
+
+### Exercício 28 (ex028.dart)
+Sistema de controle de estoque com classe contendo métodos para adicionar, remover e atualizar.
+- **Conceitos:** Classes, métodos, validação em métodos, manipulação de atributos, lista de objetos
+
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
 - **Conceitos:** Interação com usuário, readLineSync
@@ -309,6 +333,10 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Manipulação de strings (length, acesso por índice)
 - ✅ Lista de listas (estruturas bidimensionais)
 - ✅ Sistemas CRUD básicos
+- ✅ Programação Orientada a Objetos (Classes e Objetos)
+- ✅ Construtores e instanciação
+- ✅ Atributos e métodos de classe
+- ✅ Encapsulamento básico
 - ✅ Boas práticas de código
 
 ## 📖 Recursos

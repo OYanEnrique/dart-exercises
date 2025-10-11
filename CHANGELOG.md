@@ -1,3 +1,15 @@
+## 1.6.0 - 2025-10-11
+
+### Added
+- Exercício 28: Classes - Sistema de controle de estoque com métodos
+- Exercício 27: Classes - Sistema de receitas com POO
+- Exercício 26: Classes - Sistema bancário com conta, titular e saldo
+
+### Changed
+- Introduzida Programação Orientada a Objetos (POO)
+- Documentação expandida com conceitos de classes, objetos, construtores e métodos
+- Melhorias nos exercícios 21-24 (formatação e otimizações)
+
 ## 1.5.0 - 2025-10-10
 
 ### Added
