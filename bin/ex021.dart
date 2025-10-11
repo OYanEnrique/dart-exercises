@@ -26,8 +26,8 @@ List<String> adicionaNota(List<String> notas){
   String? nota = "";
   nota = stdin.readLineSync();
 
-  if(nota != null && !nota.isEmpty){
-    notas.add(nota!);
+  if(nota != null && nota.isNotEmpty){
+    notas.add(nota);
     print("Nota adicionada com sucesso!");
   } else {
     print("Nota inválida, tente novamente.");

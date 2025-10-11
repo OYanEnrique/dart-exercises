@@ -1,4 +1,3 @@
-import 'dart:io';
 
 void main(){
   String frase ="Parou! Este código não continua.";
