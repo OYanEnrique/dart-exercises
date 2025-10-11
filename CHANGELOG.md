@@ -1,3 +1,18 @@
+## 1.7.0 - 2025-10-11
+
+### Added
+- Exercício 29: Classes - Sistema de reservas de hotel com cliente e reservas
+- Biblioteca lib/conta.dart: Classe Conta reutilizável com encapsulamento
+- Biblioteca lib/reservas.dart: Classe Cliente com métodos privados
+
+### Changed
+- Exercício 26 refatorado para usar import de lib/conta.dart
+- Implementado encapsulamento com atributos privados (_saldo, _reservas)
+- Implementados métodos privados (_mostrarReservas)
+- Introduzida separação de código em múltiplos arquivos
+- Sistema de imports e organização com lib/
+- Documentação expandida com conceitos de encapsulamento e organização de projeto
+
 ## 1.6.0 - 2025-10-11
 
 ### Added

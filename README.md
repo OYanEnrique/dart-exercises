@@ -48,8 +48,11 @@ meu_app/
 │   ├── ex026.dart      # Exercício 26: Classes - Sistema bancário
 │   ├── ex027.dart      # Exercício 27: Classes - Receitas
 │   ├── ex028.dart      # Exercício 28: Classes - Controle de estoque
+│   ├── ex029.dart      # Exercício 29: Classes separadas - Sistema de reservas
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
+│   ├── conta.dart      # Classe Conta com encapsulamento
+│   ├── reservas.dart   # Classe Cliente com sistema de reservas
 │   └── meu_app.dart
 ├── test/                # Testes unitários
 │   └── meu_app_test.dart
@@ -164,6 +167,9 @@ dart run bin/ex027.dart
 
 # Exercício 28 - Classes - Controle de estoque
 dart run bin/ex028.dart
+
+# Exercício 29 - Classes separadas - Sistema de reservas
+dart run bin/ex029.dart
 
 # Aplicação principal
 dart run
@@ -285,6 +291,14 @@ Sistema de receitas usando classe com nome e preço.
 Sistema de controle de estoque com classe contendo métodos para adicionar, remover e atualizar.
 - **Conceitos:** Classes, métodos, validação em métodos, manipulação de atributos, lista de objetos
 
+### Exercício 26 (ex026.dart - Refatorado)
+Sistema bancário refatorado com classe Conta separada em arquivo lib, usando encapsulamento com atributo privado _saldo.
+- **Conceitos:** Separação de código em arquivos, imports, encapsulamento (_privado), métodos de acesso
+
+### Exercício 29 (ex029.dart)
+Sistema de reservas de hotel com classe Cliente separada, métodos privados e manipulação de lista de reservas.
+- **Conceitos:** Classes em arquivos separados, métodos privados, manipulação de listas, validação, imports
+
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
 - **Conceitos:** Interação com usuário, readLineSync
@@ -336,7 +350,11 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Programação Orientada a Objetos (Classes e Objetos)
 - ✅ Construtores e instanciação
 - ✅ Atributos e métodos de classe
-- ✅ Encapsulamento básico
+- ✅ Encapsulamento com atributos privados (_privado)
+- ✅ Métodos privados
+- ✅ Separação de código em múltiplos arquivos
+- ✅ Sistema de imports e exports
+- ✅ Organização de projeto com lib/
 - ✅ Boas práticas de código
 
 ## 📖 Recursos
@@ -347,7 +365,7 @@ Durante o desenvolvimento deste projeto, foram explorados:
 
 ## 👨‍💻 Autor
 
-Desenvolvido durante o curso de Dart da Alura.
+Desenvolvido por Yan Enrique durante o curso de Dart da Alura.
 
 ## 📄 Licença
 
