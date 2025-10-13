@@ -1,3 +1,19 @@
+## 1.8.0 - 2025-10-13
+
+### Added
+- Exercício 33: Herança - Sistema de ingredientes (Fruta, Legume, Temperos)
+- Exercício 32: Herança - Sistema de quartos de hotel (Simples, Médio, Luxo)
+- Exercício 31: Herança - Sistema de animais com polimorfismo (Cachorro, Gato)
+- Exercício 30: Herança - Sistema de funcionários (Cozinheiro, Garcom, Gerente)
+
+### Changed
+- Exercício 26 refatorado com herança: ContaCorrente, ContaPoupanca e ContaSalario
+- Biblioteca lib/conta.dart expandida com 3 tipos de contas herdadas
+- Implementada herança de classes com extends
+- Implementado polimorfismo com sobrescrita de métodos (@override)
+- Uso de super para chamar construtores da classe pai
+- Documentação expandida com conceitos de herança e polimorfismo
+
 ## 1.7.0 - 2025-10-11
 
 ### Added

@@ -45,10 +45,14 @@ meu_app/
 │   ├── ex023.dart      # Exercício 23: For-in com lista
 │   ├── ex024.dart      # Exercício 24: Loop com break
 │   ├── ex025.dart      # Exercício 25: Sistema de alunos e médias
-│   ├── ex026.dart      # Exercício 26: Classes - Sistema bancário
+│   ├── ex026.dart      # Exercício 26: Herança - Sistema bancário com tipos de conta
 │   ├── ex027.dart      # Exercício 27: Classes - Receitas
 │   ├── ex028.dart      # Exercício 28: Classes - Controle de estoque
 │   ├── ex029.dart      # Exercício 29: Classes separadas - Sistema de reservas
+│   ├── ex030.dart      # Exercício 30: Herança - Sistema de funcionários
+│   ├── ex031.dart      # Exercício 31: Herança - Animais com polimorfismo
+│   ├── ex032.dart      # Exercício 32: Herança - Sistema de quartos de hotel
+│   ├── ex033.dart      # Exercício 33: Herança - Ingredientes de receitas
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   ├── conta.dart      # Classe Conta com encapsulamento
@@ -171,6 +175,18 @@ dart run bin/ex028.dart
 # Exercício 29 - Classes separadas - Sistema de reservas
 dart run bin/ex029.dart
 
+# Exercício 30 - Herança - Sistema de funcionários
+dart run bin/ex030.dart
+
+# Exercício 31 - Herança - Animais com polimorfismo
+dart run bin/ex031.dart
+
+# Exercício 32 - Herança - Sistema de quartos de hotel
+dart run bin/ex032.dart
+
+# Exercício 33 - Herança - Ingredientes de receitas
+dart run bin/ex033.dart
+
 # Aplicação principal
 dart run
 # ou
@@ -291,13 +307,29 @@ Sistema de receitas usando classe com nome e preço.
 Sistema de controle de estoque com classe contendo métodos para adicionar, remover e atualizar.
 - **Conceitos:** Classes, métodos, validação em métodos, manipulação de atributos, lista de objetos
 
-### Exercício 26 (ex026.dart - Refatorado)
-Sistema bancário refatorado com classe Conta separada em arquivo lib, usando encapsulamento com atributo privado _saldo.
-- **Conceitos:** Separação de código em arquivos, imports, encapsulamento (_privado), métodos de acesso
+### Exercício 26 (ex026.dart - Refatorado com Herança)
+Sistema bancário com herança de classes: ContaCorrente (com empréstimo), ContaPoupanca (com rendimento) e ContaSalario (com depósito de salário). Classes separadas em arquivo lib/conta.dart.
+- **Conceitos:** Herança (extends), super, polimorfismo, sobrescrita de métodos (@override), especialização de classes
 
 ### Exercício 29 (ex029.dart)
 Sistema de reservas de hotel com classe Cliente separada, métodos privados e manipulação de lista de reservas.
 - **Conceitos:** Classes em arquivos separados, métodos privados, manipulação de listas, validação, imports
+
+### Exercício 30 (ex030.dart)
+Sistema de funcionários de restaurante com herança: Funcionario (classe base), Cozinheiro, Garcom e Gerente com método trabalhar() sobrescrito.
+- **Conceitos:** Herança, super para construtores, polimorfismo, sobrescrita de métodos (@override)
+
+### Exercício 31 (ex031.dart)
+Sistema de animais com polimorfismo: Animal (classe base), Cachorro e Gato com métodos específicos (emitirSom, abanarRabo, arranharMoveis).
+- **Conceitos:** Herança, polimorfismo, métodos específicos de subclasses, @override
+
+### Exercício 32 (ex032.dart)
+Sistema de quartos de hotel com herança: Quarto (classe base), QuartoSimples, QuartoMedio e QuartoLuxo com valores e serviços diferentes.
+- **Conceitos:** Herança, super com valores fixos, métodos adicionais em subclasses, cálculo de custos
+
+### Exercício 33 (ex033.dart)
+Sistema de ingredientes com herança: Ingrediente (classe base), Fruta, Legume e Temperos com detalhes específicos sobrescritos.
+- **Conceitos:** Herança, polimorfismo, @override, especialização de comportamento
 
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
@@ -355,6 +387,11 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Separação de código em múltiplos arquivos
 - ✅ Sistema de imports e exports
 - ✅ Organização de projeto com lib/
+- ✅ Herança de classes (extends)
+- ✅ Polimorfismo e sobrescrita de métodos (@override)
+- ✅ Uso de super para chamar construtores da classe pai
+- ✅ Especialização de classes filhas
+- ✅ Métodos específicos de subclasses
 - ✅ Boas práticas de código
 
 ## 📖 Recursos
