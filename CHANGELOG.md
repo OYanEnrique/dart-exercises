@@ -1,3 +1,22 @@
+## 1.9.0 - 2025-10-14
+
+### Added
+- Exercício 37: Implements - Sistema de agendamentos com interface Agendamento
+- Exercício 36: Implements - Sistema de seres vivos com múltiplos níveis de herança
+- Exercício 35: Classes abstratas - Sistema de funcionários com cálculo de salários
+- Exercício 34: Classes abstratas - Sistema de documentos
+
+### Changed
+- Exercício 26 refatorado: Classe Conta transformada em classe abstrata
+- Exercício 31 refatorado: Classe Animal transformada em classe abstrata
+- Exercício 32 refatorado: Classe Quarto transformada em classe abstrata com método calcularCusto abstrato
+- Exercício 33 refatorado: Classe Ingrediente transformada em classe abstrata
+- Biblioteca lib/conta.dart: Classe Conta agora é abstrata
+- Implementadas classes abstratas com abstract
+- Implementados métodos abstratos sem corpo
+- Implementada keyword implements para contratos de interface
+- Documentação expandida com conceitos de classes abstratas e interfaces
+
 ## 1.8.0 - 2025-10-13
 
 ### Added

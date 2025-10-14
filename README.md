@@ -50,12 +50,16 @@ meu_app/
 │   ├── ex028.dart      # Exercício 28: Classes - Controle de estoque
 │   ├── ex029.dart      # Exercício 29: Classes separadas - Sistema de reservas
 │   ├── ex030.dart      # Exercício 30: Herança - Sistema de funcionários
-│   ├── ex031.dart      # Exercício 31: Herança - Animais com polimorfismo
-│   ├── ex032.dart      # Exercício 32: Herança - Sistema de quartos de hotel
-│   ├── ex033.dart      # Exercício 33: Herança - Ingredientes de receitas
+│   ├── ex031.dart      # Exercício 31: Classes abstratas - Animais
+│   ├── ex032.dart      # Exercício 32: Classes abstratas - Sistema de quartos
+│   ├── ex033.dart      # Exercício 33: Classes abstratas - Ingredientes
+│   ├── ex034.dart      # Exercício 34: Classes abstratas - Documentos
+│   ├── ex035.dart      # Exercício 35: Classes abstratas - Funcionários com salários
+│   ├── ex036.dart      # Exercício 36: Implements - Seres vivos
+│   ├── ex037.dart      # Exercício 37: Implements - Sistema de agendamentos
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
-│   ├── conta.dart      # Classe Conta com encapsulamento
+│   ├── conta.dart      # Classe abstrata Conta com encapsulamento
 │   ├── reservas.dart   # Classe Cliente com sistema de reservas
 │   └── meu_app.dart
 ├── test/                # Testes unitários
@@ -178,14 +182,26 @@ dart run bin/ex029.dart
 # Exercício 30 - Herança - Sistema de funcionários
 dart run bin/ex030.dart
 
-# Exercício 31 - Herança - Animais com polimorfismo
+# Exercício 31 - Classes abstratas - Animais
 dart run bin/ex031.dart
 
-# Exercício 32 - Herança - Sistema de quartos de hotel
+# Exercício 32 - Classes abstratas - Sistema de quartos
 dart run bin/ex032.dart
 
-# Exercício 33 - Herança - Ingredientes de receitas
+# Exercício 33 - Classes abstratas - Ingredientes
 dart run bin/ex033.dart
+
+# Exercício 34 - Classes abstratas - Documentos
+dart run bin/ex034.dart
+
+# Exercício 35 - Classes abstratas - Funcionários com salários
+dart run bin/ex035.dart
+
+# Exercício 36 - Implements - Seres vivos
+dart run bin/ex036.dart
+
+# Exercício 37 - Implements - Sistema de agendamentos
+dart run bin/ex037.dart
 
 # Aplicação principal
 dart run
@@ -307,9 +323,9 @@ Sistema de receitas usando classe com nome e preço.
 Sistema de controle de estoque com classe contendo métodos para adicionar, remover e atualizar.
 - **Conceitos:** Classes, métodos, validação em métodos, manipulação de atributos, lista de objetos
 
-### Exercício 26 (ex026.dart - Refatorado com Herança)
-Sistema bancário com herança de classes: ContaCorrente (com empréstimo), ContaPoupanca (com rendimento) e ContaSalario (com depósito de salário). Classes separadas em arquivo lib/conta.dart.
-- **Conceitos:** Herança (extends), super, polimorfismo, sobrescrita de métodos (@override), especialização de classes
+### Exercício 26 (ex026.dart - Refatorado com Classes Abstratas)
+Sistema bancário com herança de classes abstratas: Conta (classe abstrata base), ContaCorrente, ContaPoupanca e ContaSalario. Classes separadas em arquivo lib/conta.dart.
+- **Conceitos:** Classes abstratas (abstract), herança, super, polimorfismo, sobrescrita de métodos (@override), encapsulamento
 
 ### Exercício 29 (ex029.dart)
 Sistema de reservas de hotel com classe Cliente separada, métodos privados e manipulação de lista de reservas.
@@ -319,17 +335,33 @@ Sistema de reservas de hotel com classe Cliente separada, métodos privados e ma
 Sistema de funcionários de restaurante com herança: Funcionario (classe base), Cozinheiro, Garcom e Gerente com método trabalhar() sobrescrito.
 - **Conceitos:** Herança, super para construtores, polimorfismo, sobrescrita de métodos (@override)
 
-### Exercício 31 (ex031.dart)
-Sistema de animais com polimorfismo: Animal (classe base), Cachorro e Gato com métodos específicos (emitirSom, abanarRabo, arranharMoveis).
-- **Conceitos:** Herança, polimorfismo, métodos específicos de subclasses, @override
+### Exercício 31 (ex031.dart - Refatorado com Classe Abstrata)
+Sistema de animais com classe abstrata Animal, Cachorro e Gato implementando métodos abstratos e específicos.
+- **Conceitos:** Classes abstratas, métodos abstratos, herança, polimorfismo, métodos específicos de subclasses, @override
 
-### Exercício 32 (ex032.dart)
-Sistema de quartos de hotel com herança: Quarto (classe base), QuartoSimples, QuartoMedio e QuartoLuxo com valores e serviços diferentes.
-- **Conceitos:** Herança, super com valores fixos, métodos adicionais em subclasses, cálculo de custos
+### Exercício 32 (ex032.dart - Refatorado com Classe Abstrata)
+Sistema de quartos de hotel com classe abstrata Quarto, QuartoSimples, QuartoMedio e QuartoLuxo com métodos abstratos implementados.
+- **Conceitos:** Classes abstratas, métodos abstratos (calcularCusto), herança, super com valores fixos, @override
 
-### Exercício 33 (ex033.dart)
-Sistema de ingredientes com herança: Ingrediente (classe base), Fruta, Legume e Temperos com detalhes específicos sobrescritos.
-- **Conceitos:** Herança, polimorfismo, @override, especialização de comportamento
+### Exercício 33 (ex033.dart - Refatorado com Classe Abstrata)
+Sistema de ingredientes com classe abstrata Ingrediente, Fruta, Legume e Temperos implementando métodos abstratos.
+- **Conceitos:** Classes abstratas, métodos abstratos, herança, polimorfismo, @override, especialização de comportamento
+
+### Exercício 34 (ex034.dart)
+Sistema de documentos com classe abstrata Documento e Relatorio implementando método abstrato imprimir().
+- **Conceitos:** Classes abstratas, métodos abstratos, herança, @override, implementação obrigatória de métodos
+
+### Exercício 35 (ex035.dart)
+Sistema de funcionários com classe abstrata Funcionario, Analista, Gerente e Diretor calculando salários com diferentes percentuais.
+- **Conceitos:** Classes abstratas, métodos abstratos, herança, cálculos com base no salário base, polimorfismo
+
+### Exercício 36 (ex036.dart)
+Sistema de seres vivos usando implements: SerVivo (classe abstrata), Planta e Animal como implementações, com subclasses específicas (Girassol, Laranjeira, SerHumano, Gato, Cao).
+- **Conceitos:** Classes abstratas, implements, extends, múltiplos níveis de herança, polimorfismo
+
+### Exercício 37 (ex037.dart)
+Sistema de agendamentos com interface Agendamento implementada por Medico e Dentista, gerenciados por GerenciadorDeAgendamentos.
+- **Conceitos:** Interfaces (classes abstratas com implements), polimorfismo, lista de interfaces, gerenciamento de objetos
 
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
@@ -392,6 +424,12 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Uso de super para chamar construtores da classe pai
 - ✅ Especialização de classes filhas
 - ✅ Métodos específicos de subclasses
+- ✅ Classes abstratas (abstract)
+- ✅ Métodos abstratos (sem implementação)
+- ✅ Implementação de interfaces (implements)
+- ✅ Diferença entre extends e implements
+- ✅ Contratos de classe com classes abstratas
+- ✅ Polimorfismo com interfaces
 - ✅ Boas práticas de código
 
 ## 📖 Recursos
