@@ -1,7 +1,5 @@
-class Animal{
-  void emitirSom() {
-    print("O animal faz um som.");
-  }
+abstract class Animal{
+  void emitirSom();
 }
 class Cachorro extends Animal {
   @override
