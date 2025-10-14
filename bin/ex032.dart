@@ -1,4 +1,4 @@
-class Quarto {
+abstract class Quarto {
   String tipo;
   double valorDiaria;
   int numeroDiarias;
@@ -6,21 +6,31 @@ class Quarto {
   Quarto(this.tipo, this.valorDiaria, this.numeroDiarias);
 
   void reservar(){
-    print("Quarto do tipo $tipo reservado por $numeroDiarias diárias.");
+    print("Quarto $tipo reservado por $numeroDiarias diárias.");
   }
 
-  void calcularCusto(){
+  void calcularCusto();
+}
+
+class QuartoSimples extends Quarto {
+  QuartoSimples(int numeroDiarias) : super("Simples", 80, numeroDiarias);
+
+  @override
+  void calcularCusto() {
     double custo = valorDiaria * numeroDiarias;
     print("Custo total do quarto $tipo por $numeroDiarias diárias: \$${custo.toStringAsFixed(2)}");
   }
 }
 
-class QuartoSimples extends Quarto {
-  QuartoSimples(int numeroDiarias) : super("Simples", 80, numeroDiarias);
-}
-
 class QuartoMedio extends Quarto {
+  
   QuartoMedio(int numeroDiarias) : super("Médio", 250, numeroDiarias);
+
+  @override
+  void calcularCusto() {
+    double custo = valorDiaria * numeroDiarias;
+    print("Custo total do quarto $tipo por $numeroDiarias diárias: \$${custo.toStringAsFixed(2)}");
+  }
 
   void cafeManha(){
     print("Servindo café da manhã no quarto $tipo.");
@@ -28,7 +38,14 @@ class QuartoMedio extends Quarto {
 }
 
 class QuartoLuxo extends Quarto {
+  
   QuartoLuxo(int numeroDiarias) : super("Luxo", 1000, numeroDiarias);
+
+  @override
+  void calcularCusto() {
+    double custo = valorDiaria * numeroDiarias;
+    print("Custo total do quarto $tipo por $numeroDiarias diárias: \$${custo.toStringAsFixed(2)}");
+  }
 
   void cafeManha(){
     print("Servindo café da manhã no quarto $tipo.");
