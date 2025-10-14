@@ -1,12 +1,10 @@
-class Ingrediente{
+abstract class Ingrediente{
   String nome;
   String tipo;
 
   Ingrediente(this.nome, this.tipo);
 
-  void detalhes(){
-    print("Ingrediente: $nome, Tipo: $tipo");
-  }
+  void detalhes();
 }
 
 class Fruta extends Ingrediente {
