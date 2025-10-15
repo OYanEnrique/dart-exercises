@@ -1,3 +1,17 @@
+## 1.10.0 - 2025-10-14
+
+### Added
+- Exercício 39: Mixins - Sistema de controle de acesso com mixin ControleAcesso
+- Exercício 38: Mixins - Sistema de passagens aéreas com mixin TaxaBagagem
+
+### Changed
+- Exercício 26 expandido: Adicionadas ContaEmpresa e ContaInvestimento usando mixin Imposto
+- Biblioteca lib/conta.dart: Adicionado mixin Imposto e duas novas classes de conta
+- Implementados mixins com keyword with
+- Implementada reutilização de código através de composição
+- Implementadas funções como parâmetros (callbacks)
+- Documentação expandida com conceitos de mixins e composição
+
 ## 1.9.0 - 2025-10-14
 
 ### Added

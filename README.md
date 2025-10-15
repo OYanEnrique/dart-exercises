@@ -57,9 +57,11 @@ meu_app/
 │   ├── ex035.dart      # Exercício 35: Classes abstratas - Funcionários com salários
 │   ├── ex036.dart      # Exercício 36: Implements - Seres vivos
 │   ├── ex037.dart      # Exercício 37: Implements - Sistema de agendamentos
+│   ├── ex038.dart      # Exercício 38: Mixins - Sistema de passagens aéreas
+│   ├── ex039.dart      # Exercício 39: Mixins - Sistema de controle de acesso
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
-│   ├── conta.dart      # Classe abstrata Conta com encapsulamento
+│   ├── conta.dart      # Classe abstrata Conta com encapsulamento e mixins
 │   ├── reservas.dart   # Classe Cliente com sistema de reservas
 │   └── meu_app.dart
 ├── test/                # Testes unitários
@@ -202,6 +204,12 @@ dart run bin/ex036.dart
 
 # Exercício 37 - Implements - Sistema de agendamentos
 dart run bin/ex037.dart
+
+# Exercício 38 - Mixins - Sistema de passagens aéreas
+dart run bin/ex038.dart
+
+# Exercício 39 - Mixins - Sistema de controle de acesso
+dart run bin/ex039.dart
 
 # Aplicação principal
 dart run
@@ -363,6 +371,18 @@ Sistema de seres vivos usando implements: SerVivo (classe abstrata), Planta e An
 Sistema de agendamentos com interface Agendamento implementada por Medico e Dentista, gerenciados por GerenciadorDeAgendamentos.
 - **Conceitos:** Interfaces (classes abstratas com implements), polimorfismo, lista de interfaces, gerenciamento de objetos
 
+### Exercício 26 (ex026.dart - Refatorado com Mixins)
+Sistema bancário expandido com ContaEmpresa e ContaInvestimento usando mixin Imposto para aplicar taxa de 3% em transações.
+- **Conceitos:** Mixins (with), reutilização de código, composição, classes abstratas, herança
+
+### Exercício 38 (ex038.dart)
+Sistema de passagens aéreas com mixin TaxaBagagem: PassagemComBagagem aplica taxa de 10% sobre o valor base, PassagemNormal não aplica taxa.
+- **Conceitos:** Mixins (with), cálculo de taxas, herança, polimorfismo, sobrescrita de métodos
+
+### Exercício 39 (ex039.dart)
+Sistema de controle de acesso com mixin ControleAcesso: ServicoUsuario e ServicoProduto compartilham lógica de verificação de permissão admin.
+- **Conceitos:** Mixins (with), reutilização de lógica, funções como parâmetros (callbacks), controle de acesso
+
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
 - **Conceitos:** Interação com usuário, readLineSync
@@ -430,6 +450,10 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Diferença entre extends e implements
 - ✅ Contratos de classe com classes abstratas
 - ✅ Polimorfismo com interfaces
+- ✅ Mixins (with) para reutilização de código
+- ✅ Composição com mixins
+- ✅ Diferença entre extends, implements e with
+- ✅ Funções como parâmetros (callbacks)
 - ✅ Boas práticas de código
 
 ## 📖 Recursos
