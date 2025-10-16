@@ -59,6 +59,11 @@ meu_app/
 │   ├── ex037.dart      # Exercício 37: Implements - Sistema de agendamentos
 │   ├── ex038.dart      # Exercício 38: Mixins - Sistema de passagens aéreas
 │   ├── ex039.dart      # Exercício 39: Mixins - Sistema de controle de acesso
+│   ├── ex040.dart      # Exercício 40: Future - Requisição HTTP de receitas
+│   ├── ex041.dart      # Exercício 41: Async/Await - Filtro de livros por autor
+│   ├── ex042.dart      # Exercício 42: Async/Await - Busca de receitas por ingredientes
+│   ├── ex043.dart      # Exercício 43: Async/Await - Formação de times de jogadores
+│   ├── ex044.dart      # Exercício 44: Async/Await - Agendamento de consultas veterinárias
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   ├── conta.dart      # Classe abstrata Conta com encapsulamento e mixins
@@ -210,6 +215,21 @@ dart run bin/ex038.dart
 
 # Exercício 39 - Mixins - Sistema de controle de acesso
 dart run bin/ex039.dart
+
+# Exercício 40 - Future - Requisição HTTP de receitas
+dart run bin/ex040.dart
+
+# Exercício 41 - Async/Await - Filtro de livros por autor
+dart run bin/ex041.dart
+
+# Exercício 42 - Async/Await - Busca de receitas por ingredientes
+dart run bin/ex042.dart
+
+# Exercício 43 - Async/Await - Formação de times de jogadores
+dart run bin/ex043.dart
+
+# Exercício 44 - Async/Await - Agendamento de consultas veterinárias
+dart run bin/ex044.dart
 
 # Aplicação principal
 dart run
@@ -383,6 +403,26 @@ Sistema de passagens aéreas com mixin TaxaBagagem: PassagemComBagagem aplica ta
 Sistema de controle de acesso com mixin ControleAcesso: ServicoUsuario e ServicoProduto compartilham lógica de verificação de permissão admin.
 - **Conceitos:** Mixins (with), reutilização de lógica, funções como parâmetros (callbacks), controle de acesso
 
+### Exercício 40 (ex040.dart)
+Requisição HTTP para buscar receitas de uma API JSON usando Future e o pacote http.
+- **Conceitos:** Future, requisições HTTP (get), package http, Uri.parse(), .then(), programação assíncrona
+
+### Exercício 41 (ex041.dart)
+Busca de livros por autor usando async/await, filtrando dados JSON de uma API.
+- **Conceitos:** Async/await, json.decode(), where(), manipulação de List\<dynamic>, filtros
+
+### Exercício 42 (ex042.dart)
+Sistema de busca de receitas por ingredientes: verifica se todos os ingredientes fornecidos estão presentes nas receitas da API.
+- **Conceitos:** Async/await, json.decode(), .every(), manipulação de listas aninhadas, verificação de containment, toLowerCase()
+
+### Exercício 43 (ex043.dart)
+Formação automática de times de jogadores: ordena por tempo de espera e divide em duas equipes balanceadas.
+- **Conceitos:** Async/await, json.decode(), .sort(), .compareTo(), .sublist(), manipulação de Map\<String, dynamic>
+
+### Exercício 44 (ex044.dart)
+Sistema de agendamento de consultas veterinárias: filtra por veterinário e ordena por data/hora de consulta.
+- **Conceitos:** Async/await, json.decode(), where(), DateTime.parse(), ordenação por datas, filtros complexos
+
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
 - **Conceitos:** Interação com usuário, readLineSync
@@ -398,6 +438,7 @@ dart test
 ## 📦 Dependências
 
 - `path: ^1.9.0` - Manipulação de caminhos de arquivos
+- `http: ^1.5.0` - Cliente HTTP para fazer requisições a APIs
 
 ### Dependências de Desenvolvimento
 
@@ -454,6 +495,16 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Composição com mixins
 - ✅ Diferença entre extends, implements e with
 - ✅ Funções como parâmetros (callbacks)
+- ✅ Programação assíncrona com Future
+- ✅ Requisições HTTP com package http
+- ✅ Async/await para código assíncrono
+- ✅ Manipulação de JSON (json.decode)
+- ✅ Uri.parse() para URLs
+- ✅ Métodos .then() e .catchError()
+- ✅ Filtros com .where() e .every()
+- ✅ Ordenação com .sort() e .compareTo()
+- ✅ DateTime.parse() para datas
+- ✅ Manipulação de List\<dynamic> e Map\<String, dynamic>
 - ✅ Boas práticas de código
 
 ## 📖 Recursos

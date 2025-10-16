@@ -1,3 +1,21 @@
+## 1.11.0 - 2025-10-15
+
+### Added
+- Exercício 44: Async/await - Sistema de agendamento de consultas veterinárias com filtro e ordenação
+- Exercício 43: Async/await - Formação automática de times de jogadores
+- Exercício 42: Async/await - Sistema de busca de receitas por ingredientes
+- Exercício 41: Async/await - Filtro de livros por autor
+- Exercício 40: Future - Requisição HTTP para buscar receitas
+- Dependência http: ^1.5.0 - Cliente HTTP para requisições a APIs
+
+### Changed
+- Implementada programação assíncrona com Future e async/await
+- Implementadas requisições HTTP com package http
+- Implementada manipulação de JSON com json.decode()
+- Implementados filtros complexos com .where() e .every()
+- Implementada ordenação com .sort(), .compareTo() e DateTime.parse()
+- Documentação expandida com conceitos de assincronismo, HTTP e manipulação de APIs
+
 ## 1.10.0 - 2025-10-14
 
 ### Added
