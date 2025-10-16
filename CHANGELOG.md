@@ -1,3 +1,15 @@
+## 1.12.0 - 2025-10-16
+
+### Added
+- Projeto Starbucks (starbucksmenu.dart): Sistema completo de cardápio com API
+  - Busca produtos por tipo (bebida-quente, bebida-gelada, comida)
+  - Ordenação automática por preço
+  - Exibição formatada de cardápio
+  - Uso de funções parametrizadas com tipos opcionais
+
+### Changed
+- Documentação expandida com projeto prático de integração com API
+
 ## 1.11.0 - 2025-10-15
 
 ### Added

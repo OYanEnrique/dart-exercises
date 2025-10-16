@@ -64,6 +64,7 @@ meu_app/
 │   ├── ex042.dart      # Exercício 42: Async/Await - Busca de receitas por ingredientes
 │   ├── ex043.dart      # Exercício 43: Async/Await - Formação de times de jogadores
 │   ├── ex044.dart      # Exercício 44: Async/Await - Agendamento de consultas veterinárias
+│   ├── starbucksmenu.dart  # Projeto Starbucks - Sistema de cardápio com filtros e ordenação
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
 │   ├── conta.dart      # Classe abstrata Conta com encapsulamento e mixins
@@ -230,6 +231,9 @@ dart run bin/ex043.dart
 
 # Exercício 44 - Async/Await - Agendamento de consultas veterinárias
 dart run bin/ex044.dart
+
+# Projeto Starbucks - Sistema de cardápio
+dart run bin/starbucksmenu.dart
 
 # Aplicação principal
 dart run
@@ -422,6 +426,10 @@ Formação automática de times de jogadores: ordena por tempo de espera e divid
 ### Exercício 44 (ex044.dart)
 Sistema de agendamento de consultas veterinárias: filtra por veterinário e ordena por data/hora de consulta.
 - **Conceitos:** Async/await, json.decode(), where(), DateTime.parse(), ordenação por datas, filtros complexos
+
+### Projeto Starbucks (starbucksmenu.dart)
+Sistema completo de cardápio do Starbucks com API: busca produtos por tipo (bebida-quente, bebida-gelada, comida), ordena por preço e exibe cardápio formatado.
+- **Conceitos:** Future, async/await, requisições HTTP, json.decode(), filtros com where(), ordenação com sort(), funções parametrizadas, API REST
 
 ### Aplicação Principal (meu_app.dart)
 Aplicação base do projeto com entrada e saída de dados.
