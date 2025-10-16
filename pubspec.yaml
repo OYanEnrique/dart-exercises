@@ -1,6 +1,6 @@
 name: meu_app
 description: 'Exercícios práticos do curso "Dart: trabalhando com a sintaxe e configuração de projeto" da Alura'
-version: 1.10.0
+version: 1.11.0
 repository: https://github.com/OYanEnrique/dart-exercises
 
 environment:
@@ -9,6 +9,7 @@ environment:
 # Add regular dependencies here.
 dependencies:
   path: ^1.9.0
+  http: ^1.5.0
 
 dev_dependencies:
   lints: ^6.0.0
