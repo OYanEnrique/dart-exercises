@@ -64,6 +64,7 @@ meu_app/
 │   ├── ex042.dart      # Exercício 42: Async/Await - Busca de receitas por ingredientes
 │   ├── ex043.dart      # Exercício 43: Async/Await - Formação de times de jogadores
 │   ├── ex044.dart      # Exercício 44: Async/Await - Agendamento de consultas veterinárias
+│   ├── ex045.dart      # Exercício 45: Streams - Gerenciador de tarefas com notificações
 │   ├── starbucksmenu.dart  # Projeto Starbucks - Sistema de cardápio com filtros e ordenação
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
@@ -231,6 +232,9 @@ dart run bin/ex043.dart
 
 # Exercício 44 - Async/Await - Agendamento de consultas veterinárias
 dart run bin/ex044.dart
+
+# Exercício 45 - Streams - Gerenciador de tarefas com notificações
+dart run bin/ex045.dart
 
 # Projeto Starbucks - Sistema de cardápio
 dart run bin/starbucksmenu.dart
@@ -426,6 +430,10 @@ Formação automática de times de jogadores: ordena por tempo de espera e divid
 ### Exercício 44 (ex044.dart)
 Sistema de agendamento de consultas veterinárias: filtra por veterinário e ordena por data/hora de consulta.
 - **Conceitos:** Async/await, json.decode(), where(), DateTime.parse(), ordenação por datas, filtros complexos
+
+### Exercício 45 (ex045.dart)
+Gerenciador de tarefas com notificações em tempo real usando Streams: adiciona, lista, atualiza e remove tarefas com sistema de notificações.
+- **Conceitos:** StreamController, Stream, listen(), programação reativa, eventos assíncronos, gerenciamento de estado
 
 ### Projeto Starbucks (starbucksmenu.dart)
 Sistema completo de cardápio do Starbucks com API: busca produtos por tipo (bebida-quente, bebida-gelada, comida), ordena por preço e exibe cardápio formatado.
