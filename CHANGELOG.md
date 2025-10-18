@@ -1,3 +1,18 @@
+## 1.13.0 - 2025-10-18
+
+### Added
+- Exercício 45: Streams - Gerenciador de tarefas com notificações em tempo real
+  - Classe Task com id, title, description e isCompleted
+  - Classe TaskManager com StreamController para notificações
+  - Operações CRUD completas (adicionar, listar, atualizar, remover)
+  - Sistema de notificações em tempo real usando Streams
+  - Uso de dart:async para programação reativa
+
+### Changed
+- Implementada programação reativa com StreamController
+- Implementados listeners para eventos de stream
+- Documentação expandida com conceitos de Streams e programação reativa
+
 ## 1.12.0 - 2025-10-16
 
 ### Added
