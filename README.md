@@ -64,7 +64,10 @@ meu_app/
 │   ├── ex042.dart      # Exercício 42: Async/Await - Busca de receitas por ingredientes
 │   ├── ex043.dart      # Exercício 43: Async/Await - Formação de times de jogadores
 │   ├── ex044.dart      # Exercício 44: Async/Await - Agendamento de consultas veterinárias
-│   ├── ex045.dart      # Exercício 45: Streams - Gerenciador de tarefas com notificações
+│   ├── ex046.dart      # Exercício 46: Try-Catch - Tratamento de exceções em envio de mensagem
+│   ├── ex047.dart      # Exercício 47: Try-Catch - Tratamento de erro em requisição HTTP
+│   ├── ex048.dart      # Exercício 48: Try-Catch - Tratamento de erro em API de clima
+│   ├── ex049.dart      # Exercício 49: Try-Catch - Tratamento de FormatException em conversão
 │   ├── starbucksmenu.dart  # Projeto Starbucks - Sistema de cardápio com filtros e ordenação
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
@@ -233,8 +236,17 @@ dart run bin/ex043.dart
 # Exercício 44 - Async/Await - Agendamento de consultas veterinárias
 dart run bin/ex044.dart
 
-# Exercício 45 - Streams - Gerenciador de tarefas com notificações
-dart run bin/ex045.dart
+# Exercício 46 - Try-Catch - Tratamento de exceções
+dart run bin/ex046.dart
+
+# Exercício 47 - Try-Catch - Requisição HTTP com tratamento
+dart run bin/ex047.dart
+
+# Exercício 48 - Try-Catch - API de clima com tratamento
+dart run bin/ex048.dart
+
+# Exercício 49 - Try-Catch - FormatException em conversão
+dart run bin/ex049.dart
 
 # Projeto Starbucks - Sistema de cardápio
 dart run bin/starbucksmenu.dart
@@ -431,9 +443,21 @@ Formação automática de times de jogadores: ordena por tempo de espera e divid
 Sistema de agendamento de consultas veterinárias: filtra por veterinário e ordena por data/hora de consulta.
 - **Conceitos:** Async/await, json.decode(), where(), DateTime.parse(), ordenação por datas, filtros complexos
 
-### Exercício 45 (ex045.dart)
-Gerenciador de tarefas com notificações em tempo real usando Streams: adiciona, lista, atualiza e remove tarefas com sistema de notificações.
-- **Conceitos:** StreamController, Stream, listen(), programação reativa, eventos assíncronos, gerenciamento de estado
+### Exercício 46 (ex046.dart)
+Função de envio de mensagem com tratamento de exceções usando try-catch: captura erros durante o envio.
+- **Conceitos:** Try-catch, on Exception, tratamento de erros, controle de fluxo com exceções
+
+### Exercício 47 (ex047.dart)
+Requisição HTTP com tratamento de erro: tenta acessar uma URL incorreta e captura a exceção com informações detalhadas.
+- **Conceitos:** Try-catch, on Exception catch (e), async/await, requisições HTTP, tratamento de erros em operações assíncronas
+
+### Exercício 48 (ex048.dart)
+Busca de dados de clima com tratamento de exceção: tenta acessar API de clima e captura erros de conexão.
+- **Conceitos:** Try-catch, on Exception, async/await, requisições HTTP, tratamento de erros de rede
+
+### Exercício 49 (ex049.dart)
+Conversão de entrada do usuário para double com tratamento de FormatException: valida entrada numérica e trata erro de formato.
+- **Conceitos:** Try-catch, on FormatException, double.parse(), validação de entrada, tratamento de erros de conversão
 
 ### Projeto Starbucks (starbucksmenu.dart)
 Sistema completo de cardápio do Starbucks com API: busca produtos por tipo (bebida-quente, bebida-gelada, comida), ordena por preço e exibe cardápio formatado.
@@ -521,6 +545,11 @@ Durante o desenvolvimento deste projeto, foram explorados:
 - ✅ Ordenação com .sort() e .compareTo()
 - ✅ DateTime.parse() para datas
 - ✅ Manipulação de List\<dynamic> e Map\<String, dynamic>
+- ✅ Tratamento de exceções com try-catch
+- ✅ Captura de exceções específicas (on Exception, on FormatException)
+- ✅ Captura de exceções com variável (catch (e))
+- ✅ Tratamento de erros em operações assíncronas
+- ✅ Validação de entrada com tratamento de erros
 - ✅ Boas práticas de código
 
 ## 📖 Recursos

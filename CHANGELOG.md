@@ -1,3 +1,19 @@
+## 1.14.0 - 2025-10-19
+
+### Added
+- Exercício 49: Try-Catch - Tratamento de FormatException em conversão de entrada
+- Exercício 48: Try-Catch - Tratamento de erro em API de clima
+- Exercício 47: Try-Catch - Tratamento de erro em requisição HTTP com captura de exceção
+- Exercício 46: Try-Catch - Tratamento de exceções em envio de mensagem
+
+### Changed
+- Implementado tratamento de exceções com try-catch
+- Implementada captura de exceções específicas (on Exception, on FormatException)
+- Implementada captura de exceções com variável (catch (e))
+- Implementado tratamento de erros em operações assíncronas
+- Implementada validação de entrada com tratamento de erros
+- Documentação expandida com conceitos de tratamento de exceções
+
 ## 1.13.0 - 2025-10-18
 
 ### Added
