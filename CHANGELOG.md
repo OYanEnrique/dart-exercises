@@ -1,3 +1,15 @@
+## 1.15.0 - 2025-10-21
+
+### Added
+- Exercício 52: Recursão - Fatorial (implementação recursiva)
+- Exercício 51: Juros - Cálculo de juros com tratamento de erros e variável global
+- Exercício 50: Validação e tratamento de entradas em operações bancárias
+
+### Changed
+- Adicionadas implementações recursivas e validação de entradas
+- Atualizada documentação com exemplos de recursão e tratamento de erros
+- Bump da versão do pacote para 1.15.0
+
 ## 1.14.0 - 2025-10-19
 
 ### Added

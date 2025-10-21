@@ -248,6 +248,15 @@ dart run bin/ex048.dart
 # Exercício 49 - Try-Catch - FormatException em conversão
 dart run bin/ex049.dart
 
+# Exercício 50 - Tratamento de erros e validação de entrada
+dart run bin/ex050.dart
+
+# Exercício 51 - Juros e tratamento com variáveis globais
+dart run bin/ex051.dart
+
+# Exercício 52 - Recursão - Fatorial (recursivo)
+dart run bin/ex052.dart
+
 # Projeto Starbucks - Sistema de cardápio
 dart run bin/starbucksmenu.dart
 
