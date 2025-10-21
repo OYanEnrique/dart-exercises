@@ -68,6 +68,9 @@ meu_app/
 │   ├── ex047.dart      # Exercício 47: Try-Catch - Tratamento de erro em requisição HTTP
 │   ├── ex048.dart      # Exercício 48: Try-Catch - Tratamento de erro em API de clima
 │   ├── ex049.dart      # Exercício 49: Try-Catch - Tratamento de FormatException em conversão
+│   ├── ex050.dart      # Exercício 50: Validação e tratamento de entradas em operações bancárias
+│   ├── ex051.dart      # Exercício 51: Juros - Cálculo de juros com variáveis globais
+│   ├── ex052.dart      # Exercício 52: Recursão - Fatorial (implementação recursiva)
 │   ├── starbucksmenu.dart  # Projeto Starbucks - Sistema de cardápio com filtros e ordenação
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
@@ -467,6 +470,18 @@ Busca de dados de clima com tratamento de exceção: tenta acessar API de clima 
 ### Exercício 49 (ex049.dart)
 Conversão de entrada do usuário para double com tratamento de FormatException: valida entrada numérica e trata erro de formato.
 - **Conceitos:** Try-catch, on FormatException, double.parse(), validação de entrada, tratamento de erros de conversão
+
+### Exercício 50 (ex050.dart)
+Sistema bancário com validação e tratamento de entradas: classe SaqueDeposito que valida operações usando dynamic e captura erros de tipo.
+- **Conceitos:** Try-catch, dynamic, conversão de tipos (as double), tratamento de erros em tempo de execução, validação de entrada
+
+### Exercício 51 (ex051.dart)
+Cálculo de juros sobre saldo com variável global: função consultarSaldo() e calculaJuros() que manipulam saldo global com tratamento de erros.
+- **Conceitos:** Variáveis globais, try-catch, throw Exception, validação de taxa negativa, operações com double
+
+### Exercício 52 (ex052.dart)
+Cálculo de fatorial usando recursão: implementação recursiva que calcula fatorial de um número com caso base e chamadas recursivas.
+- **Conceitos:** Recursão, caso base (n == 0), chamadas recursivas, funções matemáticas, retorno de valores
 
 ### Projeto Starbucks (starbucksmenu.dart)
 Sistema completo de cardápio do Starbucks com API: busca produtos por tipo (bebida-quente, bebida-gelada, comida), ordena por preço e exibe cardápio formatado.
