@@ -71,6 +71,9 @@ meu_app/
 │   ├── ex050.dart      # Exercício 50: Validação e tratamento de entradas em operações bancárias
 │   ├── ex051.dart      # Exercício 51: Juros - Cálculo de juros com variáveis globais
 │   ├── ex052.dart      # Exercício 52: Recursão - Fatorial (implementação recursiva)
+│   ├── ex053.dart      # Exercício 53: Parâmetros opcionais - Sistema de descontos por tipo de conta
+│   ├── ex054.dart      # Exercício 54: Nullable e try-catch - Verificação de idade com tratamento de null
+│   ├── ex055.dart      # Exercício 55: Listas com valores nullable - Cálculo de média de notas
 │   ├── starbucksmenu.dart  # Projeto Starbucks - Sistema de cardápio com filtros e ordenação
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
@@ -259,6 +262,15 @@ dart run bin/ex051.dart
 
 # Exercício 52 - Recursão - Fatorial (recursivo)
 dart run bin/ex052.dart
+
+# Exercício 53 - Parâmetros opcionais - Descontos por tipo de conta
+dart run bin/ex053.dart
+
+# Exercício 54 - Nullable e try-catch - Verificação de idade
+dart run bin/ex054.dart
+
+# Exercício 55 - Listas com nullable - Média de notas
+dart run bin/ex055.dart
 
 # Projeto Starbucks - Sistema de cardápio
 dart run bin/starbucksmenu.dart
@@ -482,6 +494,18 @@ Cálculo de juros sobre saldo com variável global: função consultarSaldo() e 
 ### Exercício 52 (ex052.dart)
 Cálculo de fatorial usando recursão: implementação recursiva que calcula fatorial de um número com caso base e chamadas recursivas.
 - **Conceitos:** Recursão, caso base (n == 0), chamadas recursivas, funções matemáticas, retorno de valores
+
+### Exercício 53 (ex053.dart)
+Sistema de descontos por tipo de conta: função com parâmetro opcional String? que calcula desconto baseado no tipo de conta (ouro, prata, bronze, básico).
+- **Conceitos:** Parâmetros opcionais (String?), operador nullable (?), if/else encadeado, cálculo de descontos, formatação de valores monetários
+
+### Exercício 54 (ex054.dart)
+Verificação de idade com valores nullable: função que retorna bool verificando se idade é maior ou igual a 18, com tratamento de null e try-catch.
+- **Conceitos:** Nullable types (int?), try-catch, retorno de bool, tratamento de valores null, validação de condições
+
+### Exercício 55 (ex055.dart)
+Cálculo de média de notas com lista nullable: processa List<double?> ignorando valores null, calcula média e trata casos especiais (lista vazia, sem notas válidas).
+- **Conceitos:** List com tipos nullable (List<double?>), iteração com for-in, tratamento de null, validação de listas vazias, try-catch
 
 ### Projeto Starbucks (starbucksmenu.dart)
 Sistema completo de cardápio do Starbucks com API: busca produtos por tipo (bebida-quente, bebida-gelada, comida), ordena por preço e exibe cardápio formatado.

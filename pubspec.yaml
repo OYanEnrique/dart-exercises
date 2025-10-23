@@ -1,6 +1,6 @@
 name: meu_app
 description: 'Exercícios práticos do curso "Dart: trabalhando com a sintaxe e configuração de projeto" da Alura'
-version: 1.15.0
+version: 1.16.0
 repository: https://github.com/OYanEnrique/dart-exercises
 
 environment:

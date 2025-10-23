@@ -1,3 +1,16 @@
+## 1.16.0 - 2025-10-22
+
+### Added
+- Exercício 55: Listas com valores nullable - Cálculo de média de notas ignorando valores null
+- Exercício 54: Nullable e try-catch - Verificação de idade com tratamento de null
+- Exercício 53: Parâmetros opcionais - Sistema de descontos por tipo de conta
+
+### Changed
+- Implementados parâmetros opcionais com tipos nullable (String?, int?)
+- Implementada manipulação de listas com valores nullable (List<double?>)
+- Implementado tratamento de valores null em condicionais e iterações
+- Documentação expandida com conceitos de nullable types e parâmetros opcionais
+
 ## 1.15.0 - 2025-10-21
 
 ### Added
