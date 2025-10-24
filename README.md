@@ -74,6 +74,9 @@ meu_app/
 │   ├── ex053.dart      # Exercício 53: Parâmetros opcionais - Sistema de descontos por tipo de conta
 │   ├── ex054.dart      # Exercício 54: Nullable e try-catch - Verificação de idade com tratamento de null
 │   ├── ex055.dart      # Exercício 55: Listas com valores nullable - Cálculo de média de notas
+│   ├── ex056.dart      # Exercício 56: Exceções customizadas - DeliveryFailedException
+│   ├── ex057.dart      # Exercício 57: Exceções customizadas - Sistema de registro com validações
+│   ├── ex058.dart      # Exercício 58: Try-catch em funções assíncronas - DataService
 │   ├── starbucksmenu.dart  # Projeto Starbucks - Sistema de cardápio com filtros e ordenação
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
@@ -271,6 +274,15 @@ dart run bin/ex054.dart
 
 # Exercício 55 - Listas com nullable - Média de notas
 dart run bin/ex055.dart
+
+# Exercício 56 - Exceções customizadas - DeliveryFailedException
+dart run bin/ex056.dart
+
+# Exercício 57 - Exceções customizadas - Sistema de registro
+dart run bin/ex057.dart
+
+# Exercício 58 - Try-catch assíncrono - DataService
+dart run bin/ex058.dart
 
 # Projeto Starbucks - Sistema de cardápio
 dart run bin/starbucksmenu.dart
@@ -506,6 +518,18 @@ Verificação de idade com valores nullable: função que retorna bool verifican
 ### Exercício 55 (ex055.dart)
 Cálculo de média de notas com lista nullable: processa List<double?> ignorando valores null, calcula média e trata casos especiais (lista vazia, sem notas válidas).
 - **Conceitos:** List com tipos nullable (List<double?>), iteração com for-in, tratamento de null, validação de listas vazias, try-catch
+
+### Exercício 56 (ex056.dart)
+Exceção customizada para falha de entrega: cria classe DeliveryFailedException com atributos personalizados (message, deliveryID, driverName) e sobrescreve toString().
+- **Conceitos:** Exceções customizadas, implements Exception, atributos final, @override toString(), lançamento de exceções com throw
+
+### Exercício 57 (ex057.dart)
+Sistema de registro de usuário com exceções customizadas: valida senha fraca (< 8 caracteres) e email duplicado, lançando WeakPasswordException e EmailAlreadyInUseException.
+- **Conceitos:** Múltiplas exceções customizadas, validação de senha, validação de email duplicado, throw de exceções específicas, captura com on
+
+### Exercício 58 (ex058.dart)
+Tratamento de erro em função assíncrona: classe DataService com método fetchData() assíncrono que simula delay e lança exceção, capturada na main() async.
+- **Conceitos:** Async/await, Future<void>, Future.delayed(), Duration, throw Exception em função async, try-catch em código assíncrono
 
 ### Projeto Starbucks (starbucksmenu.dart)
 Sistema completo de cardápio do Starbucks com API: busca produtos por tipo (bebida-quente, bebida-gelada, comida), ordena por preço e exibe cardápio formatado.

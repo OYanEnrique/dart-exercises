@@ -1,3 +1,17 @@
+## 1.17.0 - 2025-10-23
+
+### Added
+- Exercício 58: Try-catch em funções assíncronas - Classe DataService com tratamento de erro async
+- Exercício 57: Exceções customizadas - Sistema de registro com WeakPasswordException e EmailAlreadyInUseException
+- Exercício 56: Exceções customizadas - DeliveryFailedException com atributos personalizados
+
+### Changed
+- Implementadas exceções customizadas com implements Exception
+- Implementado tratamento de erros em funções assíncronas com async/await
+- Implementadas validações de senha e email com exceções específicas
+- Implementado @override toString() para exceções customizadas
+- Documentação expandida com conceitos de exceções customizadas e tratamento assíncrono
+
 ## 1.16.0 - 2025-10-22
 
 ### Added
