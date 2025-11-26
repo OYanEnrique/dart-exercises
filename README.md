@@ -64,6 +64,7 @@ meu_app/
 │   ├── ex042.dart      # Exercício 42: Async/Await - Busca de receitas por ingredientes
 │   ├── ex043.dart      # Exercício 43: Async/Await - Formação de times de jogadores
 │   ├── ex044.dart      # Exercício 44: Async/Await - Agendamento de consultas veterinárias
+│   ├── ex045.dart      # Exercício 45: Streams - Gerenciador de tarefas com notificações
 │   ├── ex046.dart      # Exercício 46: Try-Catch - Tratamento de exceções em envio de mensagem
 │   ├── ex047.dart      # Exercício 47: Try-Catch - Tratamento de erro em requisição HTTP
 │   ├── ex048.dart      # Exercício 48: Try-Catch - Tratamento de erro em API de clima
@@ -77,6 +78,11 @@ meu_app/
 │   ├── ex056.dart      # Exercício 56: Exceções customizadas - DeliveryFailedException
 │   ├── ex057.dart      # Exercício 57: Exceções customizadas - Sistema de registro com validações
 │   ├── ex058.dart      # Exercício 58: Try-catch em funções assíncronas - DataService
+│   ├── ex059.dart      # Exercício 59: Herança e Override - Hierarquia de classes com super
+│   ├── ex060.dart      # Exercício 60: Try-Catch-Finally - Fluxo de exceções e bloco finally
+│   ├── ex061.dart      # Exercício 61: Parâmetros opcionais posicionais - Construtor com idade opcional
+│   ├── ex062.dart      # Exercício 62: Manipulação de listas - Adição de elementos
+│   ├── ex063.dart      # Exercício 63: Métodos de coleções - Where, Map e ToList
 │   ├── starbucksmenu.dart  # Projeto Starbucks - Sistema de cardápio com filtros e ordenação
 │   └── meu_app.dart    # Aplicação principal
 ├── lib/                 # Bibliotecas do projeto
@@ -245,6 +251,9 @@ dart run bin/ex043.dart
 # Exercício 44 - Async/Await - Agendamento de consultas veterinárias
 dart run bin/ex044.dart
 
+# Exercício 45 - Streams - Gerenciador de tarefas com notificações
+dart run bin/ex045.dart
+
 # Exercício 46 - Try-Catch - Tratamento de exceções
 dart run bin/ex046.dart
 
@@ -283,6 +292,21 @@ dart run bin/ex057.dart
 
 # Exercício 58 - Try-catch assíncrono - DataService
 dart run bin/ex058.dart
+
+# Exercício 59 - Herança e Override - Hierarquia de classes com super
+dart run bin/ex059.dart
+
+# Exercício 60 - Try-Catch-Finally - Fluxo de exceções e bloco finally
+dart run bin/ex060.dart
+
+# Exercício 61 - Parâmetros opcionais posicionais - Construtor com idade opcional
+dart run bin/ex061.dart
+
+# Exercício 62 - Manipulação de listas - Adição de elementos
+dart run bin/ex062.dart
+
+# Exercício 63 - Métodos de coleções - Where, Map e ToList
+dart run bin/ex063.dart
 
 # Projeto Starbucks - Sistema de cardápio
 dart run bin/starbucksmenu.dart
@@ -479,6 +503,10 @@ Formação automática de times de jogadores: ordena por tempo de espera e divid
 Sistema de agendamento de consultas veterinárias: filtra por veterinário e ordena por data/hora de consulta.
 - **Conceitos:** Async/await, json.decode(), where(), DateTime.parse(), ordenação por datas, filtros complexos
 
+### Exercício 45 (ex045.dart)
+Gerenciador de tarefas com notificações em tempo real usando Streams: adiciona, lista, atualiza e remove tarefas com sistema de notificações.
+- **Conceitos:** StreamController, Stream, listen(), programação reativa, eventos assíncronos, gerenciamento de estado
+
 ### Exercício 46 (ex046.dart)
 Função de envio de mensagem com tratamento de exceções usando try-catch: captura erros durante o envio.
 - **Conceitos:** Try-catch, on Exception, tratamento de erros, controle de fluxo com exceções
@@ -530,6 +558,26 @@ Sistema de registro de usuário com exceções customizadas: valida senha fraca 
 ### Exercício 58 (ex058.dart)
 Tratamento de erro em função assíncrona: classe DataService com método fetchData() assíncrono que simula delay e lança exceção, capturada na main() async.
 - **Conceitos:** Async/await, Future<void>, Future.delayed(), Duration, throw Exception em função async, try-catch em código assíncrono
+
+### Exercício 59 (ex059.dart)
+Hierarquia de classes com herança e override: classe C herda de B que herda de A, cada uma sobrescrevendo o método who() e usando super para construir string concatenada.
+- **Conceitos:** Herança múltipla níveis (extends), @override, super.método(), composição de strings em hierarquia
+
+### Exercício 60 (ex060.dart)
+Fluxo de controle com try-catch-finally: demonstra ordem de execução e modificações de variável através de blocos de exceção e finally.
+- **Conceitos:** Try-catch-finally, throw Exception, fluxo de controle com exceções, bloco finally sempre executado, modificação de estado
+
+### Exercício 61 (ex061.dart)
+Classe Pessoa com parâmetros opcionais posicionais: construtor aceita nome obrigatório e idade opcional usando colchetes [].
+- **Conceitos:** Parâmetros opcionais posicionais, nullable types (int?), operador ??, construtor com argumentos opcionais
+
+### Exercício 62 (ex062.dart)
+Manipulação básica de listas: criação de lista e adição de elementos usando add().
+- **Conceitos:** List<int>, .add(), .length, manipulação de coleções
+
+### Exercício 63 (ex063.dart)
+Pipeline de transformação de listas: filtra números ímpares, multiplica por 2 e converte para lista.
+- **Conceitos:** Method chaining, .where(), .map(), .toList(), expressões lambda, programação funcional
 
 ### Projeto Starbucks (starbucksmenu.dart)
 Sistema completo de cardápio do Starbucks com API: busca produtos por tipo (bebida-quente, bebida-gelada, comida), ordena por preço e exibe cardápio formatado.
