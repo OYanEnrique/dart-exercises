@@ -1,3 +1,21 @@
+## 1.18.0 - 2025-11-26
+
+### Added
+- Exercício 63: Métodos de coleções - Pipeline de transformação com where, map e toList
+- Exercício 62: Manipulação de listas - Adição de elementos com add()
+- Exercício 61: Parâmetros opcionais posicionais - Construtor com idade opcional
+- Exercício 60: Try-Catch-Finally - Fluxo de exceções e bloco finally
+- Exercício 59: Herança e Override - Hierarquia de classes A, B, C com super
+- Exercício 45: Streams - Gerenciador de tarefas com notificações em tempo real usando StreamController
+
+### Changed
+- Implementado method chaining com where(), map() e toList()
+- Implementados parâmetros opcionais posicionais com colchetes []
+- Implementado bloco finally para código executado independente de exceção
+- Implementada hierarquia de herança com múltiplos níveis e super
+- Implementado StreamController para programação reativa
+- Documentação expandida com conceitos de Streams, herança multinível, finally e programação funcional
+
 ## 1.17.0 - 2025-10-23
 
 ### Added
